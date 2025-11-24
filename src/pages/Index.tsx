@@ -235,8 +235,8 @@ const Index = () => {
           {/* Enhanced contact info with animations */}
           <div className="flex flex-wrap justify-center gap-6 mb-12">
             {[
-              { icon: Mail, text: 'sumanthashetty@gmail.com' },
-              { icon: Phone, text: '9108588902' },
+              { icon: Mail, text: 'sumanthaardi@gmail.com' },
+              { icon: Phone, text: '8105385992' },
               { icon: MapPin, text: 'Hebri, Karnataka' }
             ].map((item, index) => (
               <div 
@@ -502,7 +502,7 @@ const Index = () => {
               <Button 
                 size="lg" 
                 className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white hover:scale-110 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 px-8 py-4 text-lg"
-                onClick={() => window.open('mailto:sumanthashetty@gmail.com', '_blank')}
+                onClick={() => window.open('mailto:sumanthaarid@gmail.com', '_blank')}
               >
                 <Mail size={24} className="mr-3" />
                 Send Email
@@ -511,7 +511,7 @@ const Index = () => {
                 variant="outline" 
                 size="lg" 
                 className="bg-white/10 border-white/30 text-white hover:bg-white/20 hover:scale-110 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 px-8 py-4 text-lg backdrop-blur-sm"
-                onClick={() => window.open('tel:9108588902', '_blank')}
+                onClick={() => window.open('tel:8105385992', '_blank')}
               >
                 <Phone size={24} className="mr-3" />
                 Call Me
