@@ -502,7 +502,7 @@ const Index = () => {
               <Button 
                 size="lg" 
                 className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white hover:scale-110 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 px-8 py-4 text-lg"
-                onClick={() => window.open('mailto:sumanthaarid@gmail.com', '_blank')}
+                onClick={() => window.open('mailto:sumanthaardi@gmail.com', '_blank')}
               >
                 <Mail size={24} className="mr-3" />
                 Send Email
